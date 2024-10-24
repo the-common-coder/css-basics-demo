@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Basics Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>CSS Basics Demo</h1>
+    </header>
+    <section>
+        <h2>Element Selector</h2>
+        <p>This paragraph is styled using an element selector (applies to all <code>&lt;p&gt;</code> elements).</p>
+        <h2>Class Selector</h2>
+        <p class="highlight">
+            This paragraph is styled using a class selector (applies to elements with the class
+            "highlight").
+        </p>
+        <h2>ID Selector</h2>
+        <p id="unique">This paragraph is styled using an ID selector (applies to the element with ID "unique").</p>
+        <h2>Descendant Selector</h2>
+        <div class="container">
+            <p>This paragraph is inside a <code>&lt;div&gt;</code> with the class "container", and styled using a
+                descendant selector.</p>
+        </div>
+        <h2>Child Selector</h2>
+        <ul>
+            <li>
+                <span>
+                    This list item is styled using a child selector (applies only to direct
+                    children).
+                </span>
+            </li>
+            <li>
+                <div>
+                    <span>This is a nested item, not affected by the child selector.</span>
+                </div>
+            </li>
+        </ul>
+        <h2>Pseudo-classes and Pseudo-elements</h2>
+        <p class="pseudo-demo">Hover over this paragraph to see a pseudo-class effect. The first letter is styled using
+            a pseudo-element.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 CSS Selector Demo</p>
+    </footer>
+</body>
+
+</html>

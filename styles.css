@@ -1,0 +1,43 @@
+
+/* Element Selector */
+p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+    padding: 10px;
+    border-left: 5px solid #4CAF50;
+}
+
+/* ID Selector */
+#unique {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Descendant Selector */
+.container p {
+    font-style: italic;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* Child Selector */
+li > span {
+    font-size: 1.2em;
+    color: #008CBA;
+}
+
+/* Pseudo-classes */
+.pseudo-demo:hover {
+    background-color: #f0f0f0;
+}
+
+/* Pseudo-elements */
+.pseudo-demo::first-letter {
+    font-size: 2em;
+    color: #4CAF50;
+}
